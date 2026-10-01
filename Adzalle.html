@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Adzalle 🐾 Kucing, Kelinci &amp; Roblox</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#fff7fb;--dot:rgba(255,126,179,.3);--ink:#3b2745;--edge:#3b2745;--muted:#6f5a7a;
+  --dk:#3b2745;--pink:#ff7eb3;--lav:#b9a2ff;--mint:#8fe6cf;--butter:#ffe08a;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1426;--dot:rgba(255,255,255,.08);--ink:#fdeef7;--edge:#f6e7ff;--muted:#cdb7d8}}
+:root[data-theme="dark"]{--bg:#1c1426;--dot:rgba(255,255,255,.08);--ink:#fdeef7;--edge:#f6e7ff;--muted:#cdb7d8}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{
+  margin:0;min-height:100%;overflow-x:hidden;color:var(--ink);
+  font-family:'Fredoka',ui-rounded,'Arial Rounded MT Bold','Trebuchet MS',system-ui,sans-serif;
+  background:radial-gradient(var(--dot) 2.5px,transparent 3px) 0 0/28px 28px,var(--bg);
+}
+.wrap{max-width:960px;margin:0 auto;padding:30px 18px 40px}
+.hero{position:relative;text-align:center;padding:10px 0 6px}
+.deco span{position:absolute;left:var(--x);top:var(--y);font-size:clamp(18px,4.5vw,28px);transform:rotate(-12deg);pointer-events:none}
+h1{
+  margin:0 0 14px;font-weight:700;font-size:clamp(60px,19vw,128px);line-height:1;
+  color:var(--pink);-webkit-text-stroke:2.5px var(--edge);paint-order:stroke fill;
+  text-shadow:5px 5px 0 var(--lav);
+}
+.sub{max-width:34ch;margin:0 auto 26px;font-size:clamp(17px,4.4vw,20px);line-height:1.55;font-weight:500;color:var(--muted)}
+.pets{display:flex;justify-content:center;align-items:flex-end;gap:clamp(8px,4vw,32px)}
+.pet{width:clamp(120px,36vw,200px);height:auto;overflow:visible;animation:bob 3.4s ease-in-out infinite}
+.pet+.pet{animation-delay:-1.7s}
+@keyframes bob{50%{transform:translateY(-10px) rotate(2deg)}}
+.sec{text-align:center;font-size:clamp(26px,6.5vw,34px);font-weight:600;margin:46px 0 24px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:26px 22px;padding:4px 8px 12px}
+.card{
+  background:var(--c);color:var(--dk);border:3px solid var(--edge);
+  border-radius:32px 32px 32px 8px;padding:22px;box-shadow:6px 6px 0 var(--edge);
+  transform:rotate(var(--r));
+}
+.ico,.cal{width:72px;height:72px;margin-bottom:14px;background:#fff;border:3px solid var(--dk);overflow:hidden;text-align:center}
+.ico{display:grid;place-items:center;border-radius:50%;font-size:28px}
+.cal{border-radius:18px}
+.cal span{display:block;background:var(--pink);color:#fff;font-weight:600;font-size:14px;line-height:22px}
+.cal b{display:block;font-size:34px;line-height:40px;font-weight:700}
+.card h3{margin:0;font-size:17px;font-weight:500;opacity:.8}
+.big{margin:2px 0 8px;font-size:clamp(28px,7vw,32px);font-weight:700;line-height:1.1}
+.sm{margin:0;font-size:16px;line-height:1.55;font-weight:400}
+footer{text-align:center;margin-top:40px;font-weight:500;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="hero">
+    <div class="deco" aria-hidden="true">
+      <span style="--x:5%;--y:5%">✨</span><span style="--x:90%;--y:9%">🤍</span>
+      <span style="--x:7%;--y:46%">🐾</span><span style="--x:89%;--y:50%">⭐</span>
+      <span style="--x:16%;--y:88%">🤍</span><span style="--x:80%;--y:90%">🐾</span>
+    </div>
+    <h1>Adzalle</h1>
+    <p class="sub">Selamat datang di dunia kecil Adzalle, tempatnya kucing, kelinci, dan petualangan Roblox.</p>
+    <div class="pets">
+      <svg class="pet" viewBox="0 0 140 130" role="img" aria-label="Kucing lucu">
+        <g stroke="#3b2745" stroke-width="3" stroke-linejoin="round">
+          <path d="M18 56L24 8l38 26z" fill="#ffd2b8"/><path d="M122 56l-6-48-38 26z" fill="#ffd2b8"/>
+        </g>
+        <path d="M27 48l2-25 21 12z" fill="#ffadc9"/><path d="M113 48l-2-25-21 12z" fill="#ffadc9"/>
+        <ellipse cx="70" cy="76" rx="56" ry="46" fill="#ffe8d9" stroke="#3b2745" stroke-width="3"/>
+        <path d="M70 34v10M59 36l2 8M81 36l-2 8" stroke="#ffb88f" stroke-width="5" stroke-linecap="round" fill="none"/>
+        <ellipse cx="46" cy="76" rx="6" ry="7.5" fill="#3b2745"/><ellipse cx="94" cy="76" rx="6" ry="7.5" fill="#3b2745"/>
+        <circle cx="48.2" cy="73" r="2.3" fill="#fff"/><circle cx="96.2" cy="73" r="2.3" fill="#fff"/>
+        <ellipse cx="31" cy="92" rx="9" ry="6" fill="#ff7eb3" opacity=".55"/><ellipse cx="109" cy="92" rx="9" ry="6" fill="#ff7eb3" opacity=".55"/>
+        <path d="M64 85h12l-6 6z" fill="#ff5f9b"/>
+        <path d="M70 91q-4 7-10 3M70 91q4 7 10 3" stroke="#3b2745" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        <path d="M22 84L6 80M22 92L6 96M118 84l16-4M118 92l16 4" stroke="#3b2745" stroke-width="2.5" stroke-linecap="round"/>
+      </svg>
+      <svg class="pet" viewBox="0 -4 140 152" role="img" aria-label="Kelinci lucu">
+        <g stroke="#3b2745" stroke-width="3">
+          <g transform="rotate(-10 48 74)"><ellipse cx="48" cy="38" rx="15" ry="38" fill="#fbf7ff"/><ellipse cx="48" cy="42" rx="7.5" ry="27" fill="#ffc4d9" stroke="none"/></g>
+          <g transform="rotate(10 92 74)"><ellipse cx="92" cy="38" rx="15" ry="38" fill="#fbf7ff"/><ellipse cx="92" cy="42" rx="7.5" ry="27" fill="#ffc4d9" stroke="none"/></g>
+          <ellipse cx="70" cy="102" rx="54" ry="42" fill="#fbf7ff"/>
+        </g>
+        <ellipse cx="49" cy="100" rx="5.5" ry="7" fill="#3b2745"/><ellipse cx="91" cy="100" rx="5.5" ry="7" fill="#3b2745"/>
+        <circle cx="51" cy="97.5" r="2.1" fill="#fff"/><circle cx="93" cy="97.5" r="2.1" fill="#fff"/>
+        <ellipse cx="32" cy="116" rx="9" ry="6" fill="#ff7eb3" opacity=".5"/><ellipse cx="108" cy="116" rx="9" ry="6" fill="#ff7eb3" opacity=".5"/>
+        <ellipse cx="70" cy="111" rx="5" ry="3.5" fill="#ff5f9b"/>
+        <path d="M70 114v4M70 118q-4 6-10 2M70 118q4 6 10 2" stroke="#3b2745" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+  </header>
+
+  <h2 class="sec">Kenalan sama Adzalle</h2>
+  <section class="grid">
+    <article class="card" style="--c:var(--butter);--r:-1.5deg">
+      <div class="cal" aria-hidden="true"><span>Sep</span><b>5</b></div>
+      <h3>Ulang tahun</h3>
+      <p class="big">5 September</p>
+      <p class="sm">Catat di kalender, ya! Jangan lupa kasih ucapan dan kue 🎂</p>
+    </article>
+    <article class="card" style="--c:var(--lav);--r:1deg">
+      <div class="ico" aria-hidden="true">🎮</div>
+      <h3>Hobi</h3>
+      <p class="big">Bermain Roblox</p>
+      <p class="sm">Seru-seruan menjelajah dunia baru bareng teman.</p>
+    </article>
+    <article class="card" style="--c:var(--mint);--r:-1deg">
+      <div class="ico" aria-hidden="true">🐱🐰</div>
+      <h3>Suka banget sama</h3>
+      <p class="big">Kucing &amp; Kelinci</p>
+      <p class="sm">Bulu lembut, mata bulat, dan super gemes.</p>
+    </article>
+  </section>
+
+  <footer>Dibuat dengan 🤍 untuk Adzalle 🐾</footer>
+</main>
+</body>
+</html>
